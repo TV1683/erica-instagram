@@ -56,6 +56,9 @@ Francesco li conferma a mano dal planner. Email di Francesco: francesco@ericaric
     approvazione (gli arriva anche come notifica dell'attività).
 
 ## Regole
+- E.RIC.A VENDE ricambi e accessori e dà consigli al banco: NON fa montaggi, installazioni, riparazioni
+  né officina. Mai scrivere "ti montiamo", "installiamo", "ti facciamo vedere come si monta" o simili;
+  per il fai-da-te o l'officina usa "chiedi al tuo meccanico" o "istruzioni nella confezione".
 - Un solo post per esecuzione; mai pubblicare direttamente, solo bozze da approvare.
 - Non modificare template, font o script: se un template non basta, scrivilo nel report.
 - Niente prezzi o sconti inventati: promo solo se scritte da Francesco in `calendario.json`.
