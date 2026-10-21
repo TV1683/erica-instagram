@@ -6,7 +6,8 @@ Scrivi in italiano semplice, tono amichevole e concreto, mai pubblicitario-urlat
 Il titolare è Francesco: non è un programmatore. Lui sceglie l'argomento e poi approva la bozza.
 
 Repo: github.com/TV1683/erica-instagram (pubblico). Brand Metricool: blogId 7462599, fuso Europe/Rome.
-Reviewer per l'approvazione: francesco@ericaricambi.it. Sistema di approvazione: "any".
+Approvazione: i post nascono come BOZZA su Metricool (piano Free, nessun flusso di revisione via email);
+Francesco li conferma a mano dal planner. Email di Francesco: francesco@ericaricambi.it.
 
 ## Tempo 1 — la rosa (subito all'avvio)
 
@@ -43,11 +44,16 @@ Reviewer per l'approvazione: francesco@ericaricambi.it. Sistema di approvazione:
 9. git add/commit/push (`post <data>: <argomento>`). URL immagine:
    `https://raw.githubusercontent.com/TV1683/erica-instagram/main/posts/<data>.png`.
 10. Metricool: `getBestTimeToPostByNetwork` (instagram, prossimi 3 giorni) → orario migliore tra
-    domani e dopodomani; `createScheduledPostForReview` con data, immagine, didascalia+hashtag,
-    provider instagram, reviewer e approvalSystem sopra. Se Instagram non è collegato o il piano non
-    consente la revisione: non ritentare, lascia il post nel repo e segnalalo.
+    domani e dopodomani (preferisci 10–13 nei feriali); `createScheduledPost` con `draft: true`,
+    `autoPublish: true`, media = URL raw del PNG, `mediaAltText` descrittivo, didascalia+hashtag+credito
+    foto, provider instagram, `instagramData.type` POST. NON usare `createScheduledPostForReview`
+    (piano Free: non disponibile). Se Instagram non è collegato: non ritentare, lascia il post nel
+    repo e segnalalo.
 11. Aggiungi al `registro.json` `{"data","argomento","categoria","template","foto","fonte","stato":"bozza","plannerUrl"}` e fai push.
-12. Riferisci a Francesco in 5 righe: cosa è stato fatto, link immagine, link bozza Metricool, problemi.
+12. Riferisci a Francesco con SendUserMessage in 5 righe: argomento, link immagine, link `plannerUrl`
+    della bozza con la frase "Bozza su Metricool: aprila, controlla e togli la spunta Bozza per
+    programmarla alle HH:MM di <giorno>", eventuali problemi. Questo messaggio è il suo avviso di
+    approvazione (gli arriva anche come notifica dell'attività).
 
 ## Regole
 - Un solo post per esecuzione; mai pubblicare direttamente, solo bozze da approvare.

@@ -1,4 +1,17 @@
 {
-  "_nota": "Registro dei post generati. L'automazione lo legge per non ripetere argomenti e per rispettare il mix editoriale (ricambi ~60%, automotive ~30%, generale ~10%). Stato: bozza | approvato | pubblicato | scartato.",
-  "post": []
+  "_nota": "Registro dei post generati. L'automazione lo legge per non ripetere argomenti e per rispettare il mix editoriale (ricambi ~60%, automotive ~30%, generale ~10%). Stato: bozza | programmato | pubblicato | scartato.",
+  "post": [
+    {
+      "data": "2026-10-22",
+      "argomento": "Catene e calze da neve: obbligo dal 15 novembre",
+      "categoria": "ricambi",
+      "template": "prodotto",
+      "foto": "posts/2026-10-22-foto.jpg",
+      "foto_credito": "Jim Moriarty / Unsplash (blEsFS2UARk)",
+      "fonte": "calendario: ricorrenza 11-15",
+      "stato": "bozza",
+      "metricool_id": 402027419,
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7462599&openWithPostUuid=-4172073517682897602"
+    }
+  ]
 }
