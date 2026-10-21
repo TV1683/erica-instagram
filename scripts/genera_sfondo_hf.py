@@ -49,11 +49,14 @@ def main():
     ap.add_argument("--key", required=True)
     ap.add_argument("--prompt", required=True)
     ap.add_argument("--out", required=True)
+    ap.add_argument("--modello", choices=["auto", "flux", "qwen"], default="auto",
+                    help="auto = FLUX poi Qwen; flux/qwen = solo quel generatore")
     a = ap.parse_args()
     token = Path(a.key).read_text(encoding="utf-8").strip()
     from gradio_client import Client
     ultimo = None
-    for spazio, api, parametri in SPAZI:
+    scelti = [s for s in SPAZI if a.modello == "auto" or a.modello in s[0].lower()]
+    for spazio, api, parametri in scelti:
         try:
             c = Client(spazio, token=token, verbose=False)
             res = c.predict(**parametri(a.prompt.strip() + STILE), api_name=api)

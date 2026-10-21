@@ -51,7 +51,10 @@ Francesco li conferma a mano dal planner. Email di Francesco: francesco@ericaric
    La descrizione è in inglese, 40-60 parole: soggetto concreto dell'argomento, ambiente, luce, stagione, obiettivo
    ("50mm lens, f/1.8, shallow depth of field"). MAI nomi di marchi, modelli d'auto, macchine fotografiche
    (scriverebbe "Nikon" sull'immagine), testi o volti. Apri l'immagine generata e controlla: niente scritte,
-   loghi, mani o ruote deformi; se c'è un difetto rigenera una volta con descrizione diversa.
+   loghi, mani o ruote deformi, e soprattutto che il SOGGETTO del post sia ben visibile (la spazzola, le
+   catene, la strada, il pezzo di cui si parla): FLUX a volte "interpreta" e inquadra altro.
+   Se il soggetto manca o c'è un difetto, rigenera con `--modello qwen` (segue più fedelmente la descrizione);
+   se anche quella non va, usa la foto Unsplash. Nel report indica quale generatore è stato usato.
    Con immagine generata: `instagramData.isAiGenerated: true` e in didascalia "Immagine generata con AI" al
    posto del credito foto. Se lo script esce con errore (quota finita, servizio fermo) o il risultato resta
    difettoso, usa la foto Unsplash scelta da Francesco: `download_asset` di Unsplash con l'id della foto, poi
