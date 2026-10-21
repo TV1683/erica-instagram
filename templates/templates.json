@@ -1,28 +1,70 @@
 {
-  "_nota": "Catalogo dei template. Ogni template è un HTML in questa cartella con segnaposto {{CHIAVE}}. 'campi' = chiavi con limite indicativo di caratteri. I tre 'principali' coprono le tre categorie editoriali e hanno tutti la foto a tutto campo; i 'secondari' sono senza foto, da usare solo se richiesto.",
+  "_nota": "Catalogo dei template. Ogni template è un HTML in questa cartella con segnaposto {{CHIAVE}}. 'campi' = chiavi con limite indicativo di caratteri. I tre 'principali' coprono le tre categorie editoriali e hanno tutti la foto a tutto campo; i 'secondari' sono senza foto, da usare solo se richiesto. Titoli: max 3 righe (limiti sotto), nessuna parola isolata sull'ultima riga. Foto: verticale, soggetto nel 60% superiore (il 40% inferiore viene coperto dal pannello).",
   "principali": {
     "notizia": {
       "categoria": "automotive / interesse generale",
       "usa_per": "notizie di attualità auto, normative, mercato (stile testata: foto + titolo in maiuscolo)",
-      "campi": {"ETICHETTA": 14, "TITOLO": 100, "FOTO": "percorso foto"},
+      "campi": {
+        "ETICHETTA": 14,
+        "TITOLO": 70,
+        "FONTE": "es. 'Fonte: ANSA · 16 ottobre 2026'",
+        "FOTO": "percorso foto"
+      },
       "didascalia": "3 blocchi: Cosa è successo (fatti, date, fonte) / Cosa cambia per chi guida / Il nostro consiglio + invito in negozio"
     },
     "prodotto": {
       "categoria": "ricambi e accessori di stagione",
       "usa_per": "prodotto o categoria legata a una stagione o scadenza (catene, spazzole, batteria, filtro abitacolo, clima)",
-      "campi": {"ETICHETTA": 14, "TITOLO": 55, "SOTTOTITOLO": 130, "FOTO": "percorso foto"},
+      "campi": {
+        "ETICHETTA": 14,
+        "TITOLO": 55,
+        "SOTTOTITOLO": 140,
+        "FOTO": "percorso foto"
+      },
       "didascalia": "3 blocchi: Perché adesso (stagione/scadenza) / Cosa scegliere (2-3 criteri pratici, senza prezzi) / Passa da noi: disponibilità e consiglio al banco"
     },
     "manutenzione": {
       "categoria": "consigli di manutenzione",
       "usa_per": "sintomo → spiegazione → cosa fare; domande frequenti dei clienti",
-      "campi": {"ETICHETTA": 14, "TITOLO": 60, "CONSIGLIO": 120, "FOTO": "percorso foto"},
+      "campi": {
+        "ETICHETTA": 14,
+        "TITOLO": 50,
+        "CONSIGLIO": 120,
+        "FOTO": "percorso foto"
+      },
       "didascalia": "3 blocchi: Il sintomo / Perché succede / Cosa fare e quando venire in negozio"
     }
   },
   "secondari": {
-    "promo": {"usa_per": "offerte con numero forte, solo se scritte da Francesco in calendario.json", "campi": {"ETICHETTA": 14, "GRANDE": 5, "TITOLO": 60, "NOTA": 90}},
-    "consiglio": {"usa_per": "consiglio tecnico senza foto", "campi": {"ETICHETTA": 14, "DOMANDA": 80, "NUMERO": 2, "RISPOSTA_TITOLO": 40, "RISPOSTA": 170}},
-    "lista": {"usa_per": "elenco di 3 punti senza foto", "campi": {"ETICHETTA": 14, "NUMERO": 1, "TITOLO": 60, "VOCE1": 45, "VOCE2": 45, "VOCE3": 45}}
+    "promo": {
+      "usa_per": "offerte con numero forte, solo se scritte da Francesco in calendario.json",
+      "campi": {
+        "ETICHETTA": 14,
+        "GRANDE": 5,
+        "TITOLO": 60,
+        "NOTA": 90
+      }
+    },
+    "consiglio": {
+      "usa_per": "consiglio tecnico senza foto",
+      "campi": {
+        "ETICHETTA": 14,
+        "DOMANDA": 80,
+        "NUMERO": 2,
+        "RISPOSTA_TITOLO": 40,
+        "RISPOSTA": 170
+      }
+    },
+    "lista": {
+      "usa_per": "elenco di 3 punti senza foto",
+      "campi": {
+        "ETICHETTA": 14,
+        "NUMERO": 1,
+        "TITOLO": 60,
+        "VOCE1": 45,
+        "VOCE2": 45,
+        "VOCE3": 45
+      }
+    }
   }
 }

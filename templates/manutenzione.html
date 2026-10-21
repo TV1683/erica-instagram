@@ -5,32 +5,28 @@
 <title>Consiglio manutenzione</title>
 <link rel="stylesheet" href="_base.css">
 <style>
-  .foto { position: absolute; inset: 0; width: 1080px; height: 1350px; object-fit: cover; }
-  .velo { position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(10,20,40,.05) 35%, rgba(10,20,40,.6) 100%); }
-  .card { position: absolute; left: 48px; right: 48px; bottom: 48px; background: var(--navy); color: #fff; border-radius: 24px; padding: 48px 56px 40px 56px; display: flex; flex-direction: column; gap: 20px; border-left: 14px solid var(--blu); }
-  .titolo { font-family: Poppins, sans-serif; font-weight: 800; font-size: 58px; line-height: 1.12; letter-spacing: -.5px; }
-  .tip { display: flex; gap: 18px; align-items: flex-start; font-size: 27px; font-weight: 500; line-height: 1.35; color: #E3EAF4; }
-  .marchio { width: 64px; height: 64px; background: var(--rosso); display: flex; align-items: center; justify-content: center; font-family: Poppins, sans-serif; font-weight: 800; font-size: 40px; color: #fff; line-height: 1; }
+  .post { --pannello: 46, 63, 88; --accento: #5BB4EE; }
+  .pill { background: var(--blu); border-color: rgba(255,255,255,.35); }
+  .tip { display: flex; gap: 16px; align-items: flex-start; }
+  .tip svg { flex: none; margin-top: 4px; }
 </style>
 </head>
 <body>
-<div class="post" style="background: #16202e; color: #fff">
+<div class="post">
   <img class="foto" src="{{FOTO}}" alt="">
   <div class="velo"></div>
-
-  <div style="position: absolute; top: 56px; left: 64px">
-    <div class="pill" style="background: var(--blu); color: #fff">{{ETICHETTA}}</div>
-  </div>
-
-  <div class="card">
+  <div class="pannello"></div>
+  <div class="pill">{{ETICHETTA}}</div>
+  <div class="blocco">
+    <div class="barra"></div>
     <div class="titolo">{{TITOLO}}</div>
-    <div class="tip">
-      <svg aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#5BB4EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="flex: none; margin-top: 3px"><path d="M5 12l5 5L20 7"/></svg>
+    <div class="sotto tip">
+      <svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#8FD0FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg>
       <span>{{CONSIGLIO}}</span>
     </div>
-    <div style="display: flex; align-items: center; gap: 24px; margin-top: 14px; padding-top: 24px; border-top: 1.5px solid rgba(255,255,255,.2)">
+    <div class="piede">
       <div class="logo-tile"><img src="../assets/logo-erica.png" alt="E.RIC.A Ricambi Auto"></div>
-      <div style="font-size: 20px; font-weight: 600; opacity: .9">Chiedi ai nostri tecnici · Viale Italia 193, Conegliano</div>
+      <div class="piede-testo">Chiedi al banco<small>Viale Italia 193 · www.ericaricambi.it</small></div>
     </div>
   </div>
 </div>
