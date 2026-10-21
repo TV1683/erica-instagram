@@ -66,8 +66,12 @@ Francesco li conferma a mano dal planner. Email di Francesco: francesco@ericaric
    controlla che nessun testo sia tagliato o sovrapposto; se sì accorcia e rigenera.
 9. git add/commit/push (`post <data>: <argomento>`). URL immagine:
    `https://raw.githubusercontent.com/TV1683/erica-instagram/main/posts/<data>.png`.
-10. Metricool: `getBestTimeToPostByNetwork` (instagram, prossimi 3 giorni) → orario migliore tra
-    domani e dopodomani (preferisci 10–13 nei feriali); `createScheduledPost` con `draft: true`,
+10. Metricool — **giorni di pubblicazione: lunedì, mercoledì e venerdì alle 10:00** (Europe/Rome),
+    scelti da Francesco il 21/10/2026 sui dati Metricool (weekend con circa metà del pubblico: mai
+    sabato e domenica). Data = il primo giorno di pubblicazione dopo oggi che non sia festivo e che non
+    abbia già un post in Metricool (`getScheduledPosts`): se è occupato o festivo passa al successivo.
+    Festivi da saltare: 1/1, 6/1, Pasquetta (29/3/2027, 17/4/2028), 25/4, 1/5, 2/6, 15/8, 1/11, 8/12,
+    25/12, 26/12. Se Francesco indica un'altra data, vale la sua. `createScheduledPost` con `draft: true`,
     `autoPublish: true`, media = URL raw del PNG, `mediaAltText` descrittivo, didascalia+hashtag+credito
     foto, provider instagram, `instagramData.type` POST. NON usare `createScheduledPostForReview`
     (piano Free: non disponibile). Se Instagram non è collegato: non ritentare, lascia il post nel
