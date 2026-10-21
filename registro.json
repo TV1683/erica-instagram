@@ -12,6 +12,18 @@
       "stato": "bozza",
       "metricool_id": 402027419,
       "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7462599&openWithPostUuid=-4172073517682897602"
+    },
+    {
+      "data": "2026-10-24",
+      "argomento": "Nuovo Codice della strada approvato dal CdM (schema, non ancora in vigore): multe più basse, documenti non più a bordo, verbali in 45 giorni",
+      "categoria": "automotive",
+      "template": "notizia",
+      "foto": "posts/2026-10-24-foto.jpg",
+      "foto_credito": "Michiel Annaert / Unsplash (pFeCiV0lUwI)",
+      "fonte": "ANSA 14/10/2026",
+      "stato": "bozza",
+      "metricool_id": 402489231,
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7462599&openWithPostUuid=1844401252224748331"
     }
   ]
 }
