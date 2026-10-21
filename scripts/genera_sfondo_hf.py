@@ -20,8 +20,10 @@ STILE = (" Editorial automotive photography, natural light, realistic textures, 
 SPAZI = [
     ("mcp-tools/FLUX.1-Krea-dev", "/infer",
      lambda p: dict(prompt=p, seed=0, randomize_seed=True, width=832, height=1040, guidance_scale=4.5, num_inference_steps=28)),
-    ("mcp-tools/Qwen-Image", "/infer",
-     lambda p: dict(prompt=p, seed=0, randomize_seed=True, aspect_ratio="3:4", guidance_scale=4.0, num_inference_steps=30, prompt_enhance=False)),
+    ("mcp-tools/Qwen-Image", "/generate_image",
+     lambda p: dict(prompt=p, seed=0, randomize_seed=True, aspect_ratio="3:4",
+                    negative_prompt="text, letters, watermark, logo, brand name, license plate, blurry, low resolution, cartoon, illustration",
+                    guidance_scale=4.0, num_inference_steps=24)),
 ]
 
 def salva(risultato, out: Path):
@@ -53,7 +55,7 @@ def main():
     ultimo = None
     for spazio, api, parametri in SPAZI:
         try:
-            c = Client(spazio, hf_token=token, verbose=False)
+            c = Client(spazio, token=token, verbose=False)
             res = c.predict(**parametri(a.prompt.strip() + STILE), api_name=api)
             salva(res, Path(a.out))
             print(f"{a.out} (generata con {spazio})")

@@ -31,10 +31,10 @@ Francesco li conferma a mano dal planner. Email di Francesco: francesco@ericaric
    massimo 1, solo se è ancora attuale (scadenza non passata, notizia non superata da sviluppi più
    recenti: ricontrolla la fonte) e solo se non è stato già riproposto 2 volte (`riproposto`). Segnalalo
    a Francesco come "già proposto il GG/MM". Non riproporre mai un argomento finito nel registro.
-4. Per ciascun argomento proponi 2 foto Unsplash (connettore Unsplash: query inglese di 2-4 parole,
+4. Per ciascun argomento scrivi in 1 riga (italiano) l'immagine che verrà generata, e proponi come riserva 2 foto Unsplash (connettore Unsplash: query inglese di 2-4 parole,
    `orientation: portrait`, `plus: none`; realistiche, senza testi, loghi o volti in primo piano, soggetto
-   nel 60% superiore) con il link `links.html` e il nome dell'autore. Se è attiva la generazione (punto 6),
-   aggiungi anche la descrizione dell'immagine che genereresti.
+   nel 60% superiore) con il link `links.html` e il nome dell'autore. Francesco può scegliere "generata"
+   (predefinito) oppure una delle due foto.
 5. Manda a Francesco con SendUserMessage la rosa numerata (argomenti A/B/C, foto 1/2 per ciascuno)
    e chiedi: "Quale argomento e quale foto? Puoi anche cambiare template o chiedere un'altra foto."
    Prima di mandarla, aggiungi la rosa in testa a `rose.json` (data, argomenti con categoria, fonte,
@@ -44,15 +44,18 @@ Francesco li conferma a mano dal planner. Email di Francesco: francesco@ericaric
 
 ## Tempo 2 — la bozza (dopo la risposta)
 
-6. Sfondo del post. Predefinito: FOTO UNSPLASH scelta da Francesco nella rosa. Chiama `download_asset`
-   di Unsplash con l'id della foto (registra il download, licenza), poi
-   `curl -L -o posts/<data>-foto.jpg "<urls.full>&w=1600"`. Se il download fallisce, dillo e fermati.
-   Immagine generata (OpenAI): SOLO se esiste il repo privato `TV1683/erica-segreti` con `openai.key`
-   (prova `add_repo` in lettura: se non c'è o è vuoto, salta questo punto senza segnalare errori).
-   In quel caso usa `python3 scripts/genera_sfondo.py --key ../erica-segreti/openai.key --prompt "<descrizione
-   in inglese>" --out posts/<data>-foto.jpg` (mai marchi, prodotti riconoscibili, testi o volti), imposta
-   `instagramData.isAiGenerated: true` e in didascalia "Immagine generata con AI" al posto del credito foto;
-   se la generazione fallisce, torna alla foto Unsplash e avvisa nel report.
+6. Sfondo del post. Predefinito: IMMAGINE GENERATA con Hugging Face (gratis). Collega anche il repo privato
+   `TV1683/erica-segreti` (`add_repo` in lettura, poi `git clone --depth 1` in /home/claude/erica-segreti) e lancia
+   `pip install --break-system-packages gradio_client pillow` se serve, poi
+   `python3 scripts/genera_sfondo_hf.py --key ../erica-segreti/hf.key --prompt "<descrizione>" --out posts/<data>-foto.jpg`.
+   La descrizione è in inglese, 40-60 parole: soggetto concreto dell'argomento, ambiente, luce, stagione, obiettivo
+   ("50mm lens, f/1.8, shallow depth of field"). MAI nomi di marchi, modelli d'auto, macchine fotografiche
+   (scriverebbe "Nikon" sull'immagine), testi o volti. Apri l'immagine generata e controlla: niente scritte,
+   loghi, mani o ruote deformi; se c'è un difetto rigenera una volta con descrizione diversa.
+   Con immagine generata: `instagramData.isAiGenerated: true` e in didascalia "Immagine generata con AI" al
+   posto del credito foto. Se lo script esce con errore (quota finita, servizio fermo) o il risultato resta
+   difettoso, usa la foto Unsplash scelta da Francesco: `download_asset` di Unsplash con l'id della foto, poi
+   `curl -L -o posts/<data>-foto.jpg "<urls.full>&w=1600"`, e avvisa nel report.
 7. Template per categoria (sempre con foto): notizia → `notizia`, ricambi/accessori di stagione →
    `prodotto`, consiglio di manutenzione → `manutenzione`. Compila i campi rispettando i limiti di
    `templates.json`; salva `posts/<data>.json` (`FOTO` = percorso relativo della foto).
