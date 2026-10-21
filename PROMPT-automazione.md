@@ -12,8 +12,10 @@ Francesco li conferma a mano dal planner. Email di Francesco: francesco@ericaric
 ## Tempo 1 — la rosa (subito all'avvio)
 
 1. Clona il repo (`add_repo` con accesso push, poi git clone). Leggi `calendario.json`,
-   `registro.json`, `templates/templates.json`.
-2. Ricerca web: 2–3 notizie automotive italiane degli ultimi 7 giorni utili a chi ha un'auto
+   `registro.json`, `rose.json`, `templates/templates.json`.
+2. Ricerca web. **Finestra delle notizie**: parti dalla data dell'ultima rosa in `rose.json` (campo
+   `data`) fino a oggi; le notizie uscite in questo intervallo hanno la precedenza. Solo se non bastano
+   allarga fino agli ultimi 7 giorni. Cerca 2–3 notizie automotive italiane utili a chi ha un'auto
    (codice della strada, richiami, scadenze, pneumatici, batterie, manutenzione). Cerca anche 1 notizia
    di SETTORE/INDUSTRIA dei ricambi (fonti: ANSA economia, Il Sole 24 Ore, Automotive News/Notiziario
    Motoristico, Autopromotec): operazioni dei grandi fornitori (es. Continental che cede ContiTech),
@@ -25,12 +27,19 @@ Francesco li conferma a mano dal planner. Email di Francesco: francesco@ericaric
    (categoria "settore", template `notizia`, didascalia che spiega in 2 righe perché conta per chi
    compra ricambi: disponibilità, marchi, prezzi in prospettiva senza cifre inventate).
    Per ciascuno: titolo, 1 riga sul perché ora, categoria, template consigliato, fonte.
+   **Argomenti già proposti e non scelti** (`rose.json`, voci con `scelto: false`): puoi riproporne al
+   massimo 1, solo se è ancora attuale (scadenza non passata, notizia non superata da sviluppi più
+   recenti: ricontrolla la fonte) e solo se non è stato già riproposto 2 volte (`riproposto`). Segnalalo
+   a Francesco come "già proposto il GG/MM". Non riproporre mai un argomento finito nel registro.
 4. Per ciascun argomento proponi 2 foto Unsplash (connettore Unsplash: query inglese di 2-4 parole,
    `orientation: portrait`, `plus: none`; realistiche, senza testi, loghi o volti in primo piano, soggetto
    nel 60% superiore) con il link `links.html` e il nome dell'autore. Se è attiva la generazione (punto 6),
    aggiungi anche la descrizione dell'immagine che genereresti.
 5. Manda a Francesco con SendUserMessage la rosa numerata (argomenti A/B/C, foto 1/2 per ciascuno)
    e chiedi: "Quale argomento e quale foto? Puoi anche cambiare template o chiedere un'altra foto."
+   Prima di mandarla, aggiungi la rosa in testa a `rose.json` (data, argomenti con categoria, fonte,
+   url, foto proposte, `scelto: false`; per un argomento riproposto incrementa `riproposto` nella voce
+   originale invece di duplicarla) e fai commit e push (`rosa <data>`).
    Poi **fermati e aspetta la risposta**. Se non risponde, non fare nulla: nessun post senza scelta.
 
 ## Tempo 2 — la bozza (dopo la risposta)
@@ -63,7 +72,9 @@ Francesco li conferma a mano dal planner. Email di Francesco: francesco@ericaric
     foto, provider instagram, `instagramData.type` POST. NON usare `createScheduledPostForReview`
     (piano Free: non disponibile). Se Instagram non è collegato: non ritentare, lascia il post nel
     repo e segnalalo.
-11. Aggiungi al `registro.json` `{"data","argomento","categoria","template","foto","fonte","stato":"bozza","plannerUrl"}` e fai push.
+11. Aggiungi al `registro.json` `{"data","argomento","categoria","template","foto","fonte","stato":"bozza","plannerUrl"}`.
+    In `rose.json` segna `scelto: true` sull'argomento scelto (nella voce originale, se era riproposto).
+    Poi fai push.
 12. Riferisci a Francesco con SendUserMessage in 5 righe: argomento, link immagine, link `plannerUrl`
     della bozza con la frase "Bozza su Metricool: aprila, controlla e togli la spunta Bozza per
     programmarla alle HH:MM di <giorno>", eventuali problemi. Questo messaggio è il suo avviso di
