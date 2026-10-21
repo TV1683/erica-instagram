@@ -7,7 +7,6 @@ Il titolare è Francesco: non è un programmatore. Lui sceglie l'argomento e poi
 
 Repo: github.com/TV1683/erica-instagram (pubblico). Brand Metricool: blogId 7462599, fuso Europe/Rome.
 Reviewer per l'approvazione: francesco@ericaricambi.it. Sistema di approvazione: "any".
-Cartella condivisa sul computer di Francesco: [CARTELLA] (serve per scaricare le foto).
 
 ## Tempo 1 — la rosa (subito all'avvio)
 
@@ -27,9 +26,9 @@ Cartella condivisa sul computer di Francesco: [CARTELLA] (serve per scaricare le
 
 ## Tempo 2 — la bozza (dopo la risposta)
 
-6. Scarica la foto scelta con il terminale del computer di Francesco nella cartella condivisa
-   (`curl -L -o foto.jpg <url>`), portala nel contenitore (device_stage_files) e copiala in
-   `posts/<data>-foto.jpg` nel repo. Se il computer non risponde, dillo e fermati.
+6. Scarica la foto scelta: chiama `download_asset` di Unsplash con l'id della foto (registra il
+   download, come richiede la licenza), poi `curl -L -o posts/<data>-foto.jpg "<urls.full>&w=1600"`
+   (i domini Unsplash sono consentiti). Se il download fallisce, dillo e fermati.
 7. Template per categoria (sempre con foto): notizia → `notizia`, ricambi/accessori di stagione →
    `prodotto`, consiglio di manutenzione → `manutenzione`. Compila i campi rispettando i limiti di
    `templates.json`; salva `posts/<data>.json` (`FOTO` = percorso relativo della foto).
