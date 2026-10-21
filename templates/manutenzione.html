@@ -5,28 +5,24 @@
 <title>Consiglio manutenzione</title>
 <link rel="stylesheet" href="_base.css">
 <style>
-  .post { --pannello: 46, 63, 88; --accento: #5BB4EE; }
-  .pill { background: var(--blu); border-color: rgba(255,255,255,.35); }
-  .tip { display: flex; gap: 16px; align-items: flex-start; }
-  .tip svg { flex: none; margin-top: 4px; }
+  .foto { height: 920px; }
+  .etichetta { background: var(--navy); }
+  .pannello { position: absolute; left: 0; right: 0; top: 860px; bottom: 0; background: linear-gradient(to bottom, rgba(30,47,77,0) 0%, var(--navy) 60px, var(--navy) 100%); padding: 120px 64px 56px 64px; box-sizing: border-box; display: flex; flex-direction: column; gap: 20px; }
+  .titolo { text-transform: none; font-size: 62px; letter-spacing: -.5px; }
+  .piede { margin-top: auto; }
 </style>
 </head>
 <body>
 <div class="post">
   <img class="foto" src="{{FOTO}}" alt="">
-  <div class="velo"></div>
-  <div class="pannello"></div>
-  <div class="pill">{{ETICHETTA}}</div>
-  <div class="blocco">
-    <div class="barra"></div>
+  <div class="etichetta">{{ETICHETTA}}</div>
+  <div class="pannello">
     <div class="titolo">{{TITOLO}}</div>
-    <div class="sotto tip">
-      <svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#8FD0FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg>
-      <span>{{CONSIGLIO}}</span>
-    </div>
+    <div class="sotto">{{CONSIGLIO}}</div>
     <div class="piede">
-      <div class="logo-tile"><img src="../assets/logo-erica.png" alt="E.RIC.A Ricambi Auto"></div>
-      <div class="piede-testo">Chiedi al banco<small>Viale Italia 193 · www.ericaricambi.it</small></div>
+      <img src="../assets/logo-erica.png" alt="E.RIC.A Ricambi Auto">
+      <div class="riga"></div>
+      <div class="sito">Viale Italia 193, Conegliano<small>www.ericaricambi.it</small></div>
     </div>
   </div>
 </div>

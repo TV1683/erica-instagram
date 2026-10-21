@@ -5,23 +5,28 @@
 <title>Prodotto di stagione</title>
 <link rel="stylesheet" href="_base.css">
 <style>
-  .post { --pannello: 200, 38, 43; --accento: #fff; }
-  .pill { background: var(--rosso); border-color: rgba(255,255,255,.35); }
+  .foto { height: 1000px; }
+  .ombra { position: absolute; left: 0; right: 0; top: 760px; height: 240px; background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,.35)); }
+  .banda { position: absolute; left: 0; right: 0; top: 880px; height: 300px; background: var(--rosso); clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 46px)); padding: 44px 64px 0 64px; box-sizing: border-box; display: flex; flex-direction: column; gap: 16px; }
+  .titolo { font-size: 58px; line-height: 1.06; }
+  .footer { position: absolute; left: 0; right: 0; bottom: 0; height: 190px; background: var(--navy); padding: 0 64px; box-sizing: border-box; display: flex; align-items: center; }
+  .footer .piede { width: 100%; }
 </style>
 </head>
 <body>
 <div class="post">
   <img class="foto" src="{{FOTO}}" alt="">
-  <div class="velo"></div>
-  <div class="pannello"></div>
-  <div class="pill">{{ETICHETTA}}</div>
-  <div class="blocco">
-    <div class="barra"></div>
+  <div class="ombra"></div>
+  <div class="etichetta">{{ETICHETTA}}</div>
+  <div class="banda">
     <div class="titolo">{{TITOLO}}</div>
     <div class="sotto">{{SOTTOTITOLO}}</div>
+  </div>
+  <div class="footer">
     <div class="piede">
-      <div class="logo-tile"><img src="../assets/logo-erica.png" alt="E.RIC.A Ricambi Auto"></div>
-      <div class="piede-testo">In negozio a Conegliano<small>Viale Italia 193 · www.ericaricambi.it</small></div>
+      <img src="../assets/logo-erica.png" alt="E.RIC.A Ricambi Auto">
+      <div class="riga"></div>
+      <div class="sito">Viale Italia 193, Conegliano<small>www.ericaricambi.it</small></div>
     </div>
   </div>
 </div>
