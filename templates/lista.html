@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Lista</title>
+<link rel="stylesheet" href="_base.css">
+</head>
+<body>
+<div class="post" style="background: var(--bianco); color: var(--navy); padding: 72px">
+  <div style="display: flex; justify-content: space-between; align-items: center">
+    <div style="display: flex; align-items: baseline; gap: 14px">
+      <div class="brand" style="color: var(--rosso-scuro)">E.RIC.A</div>
+      <div class="brand-sub" style="color: var(--grigio)">Emporio Ricambi Auto</div>
+    </div>
+    <div class="pill" style="background: var(--navy); color: var(--bianco)">{{ETICHETTA}}</div>
+  </div>
+
+  <div style="margin-top: 80px; display: flex; align-items: flex-end; gap: 28px">
+    <div class="display" style="font-size: 320px; line-height: .8; letter-spacing: -18px; color: var(--rosso)">{{NUMERO}}</div>
+    <div style="font-family: Poppins, sans-serif; font-weight: 700; font-size: 52px; line-height: 1.1; padding-bottom: 16px; max-width: 580px">{{TITOLO}}</div>
+  </div>
+
+  <div style="margin-top: 80px; display: flex; flex-direction: column">
+    <div style="display: flex; align-items: center; gap: 32px; padding: 30px 0; border-top: 2px solid #DDE3EC">
+      <div class="display" style="font-size: 32px; color: var(--blu); width: 70px">01</div>
+      <div style="font-size: 30px; font-weight: 600">{{VOCE1}}</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 32px; padding: 30px 0; border-top: 2px solid #DDE3EC">
+      <div class="display" style="font-size: 32px; color: var(--blu); width: 70px">02</div>
+      <div style="font-size: 30px; font-weight: 600">{{VOCE2}}</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 32px; padding: 30px 0; border-top: 2px solid #DDE3EC; border-bottom: 2px solid #DDE3EC">
+      <div class="display" style="font-size: 32px; color: var(--blu); width: 70px">03</div>
+      <div style="font-size: 30px; font-weight: 600">{{VOCE3}}</div>
+    </div>
+  </div>
+
+  <div style="margin-top: auto; margin-left: -72px; margin-right: -72px; background: var(--blu); color: var(--bianco); padding: 28px 72px; display: flex; justify-content: space-between; align-items: center; font-size: 22px; font-weight: 600">
+    <span>Viale Italia 193 · Conegliano (TV)</span>
+    <span>www.ericaricambi.it</span>
+  </div>
+</div>
+</body>
+</html>
