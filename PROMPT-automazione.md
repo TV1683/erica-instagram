@@ -19,17 +19,23 @@ Francesco li conferma a mano dal planner. Email di Francesco: francesco@ericaric
 3. Componi una rosa di **3 argomenti** diversi tra loro, escludendo quelli nel registro degli
    ultimi 60 giorni e tenendo il mix (ricambi ~60%, automotive ~30%, generale ~10% sugli ultimi 10 post).
    Per ciascuno: titolo, 1 riga sul perché ora, categoria, template consigliato, fonte.
-4. Con il connettore Unsplash cerca per ciascun argomento 2 foto adatte (orizzontali o quadrate,
-   realistiche, senza testi o loghi di altre aziende) e riporta i link.
+4. Per ciascun argomento proponi lo sfondo: (a) la descrizione dell'immagine che genereresti (1 riga) e
+   (b) 1 foto Unsplash alternativa (connettore Unsplash, verticale, realistica, senza testi o loghi) con link.
 5. Manda a Francesco con SendUserMessage la rosa numerata (argomenti A/B/C, foto 1/2 per ciascuno)
    e chiedi: "Quale argomento e quale foto? Puoi anche cambiare template o chiedere un'altra foto."
    Poi **fermati e aspetta la risposta**. Se non risponde, non fare nulla: nessun post senza scelta.
 
 ## Tempo 2 — la bozza (dopo la risposta)
 
-6. Scarica la foto scelta: chiama `download_asset` di Unsplash con l'id della foto (registra il
-   download, come richiede la licenza), poi `curl -L -o posts/<data>-foto.jpg "<urls.full>&w=1600"`
-   (i domini Unsplash sono consentiti). Se il download fallisce, dillo e fermati.
+6. Sfondo del post. Predefinito: IMMAGINE GENERATA. Clona anche il repo privato `TV1683/erica-segreti`
+   (`add_repo` in lettura) e usa `python3 scripts/genera_sfondo.py --key ../erica-segreti/openai.key
+   --prompt "<descrizione in inglese>" --out posts/<data>-foto.jpg`. Il prompt descrive il soggetto
+   dell'argomento (es. "close-up of a car wheel with snow chains fitted, snow falling, alpine road at dusk"),
+   mai marchi, prodotti riconoscibili, testi o volti. Se Francesco nella rosa ha scelto la foto Unsplash,
+   oppure la generazione fallisce (credito esaurito, errore): chiama `download_asset` di Unsplash con l'id
+   della foto e `curl -L -o posts/<data>-foto.jpg "<urls.full>&w=1600"`, e avvisalo nel report.
+   Con immagine generata: `instagramData.isAiGenerated: true` e in didascalia "Immagine generata con AI"
+   al posto del credito foto.
 7. Template per categoria (sempre con foto): notizia → `notizia`, ricambi/accessori di stagione →
    `prodotto`, consiglio di manutenzione → `manutenzione`. Compila i campi rispettando i limiti di
    `templates.json`; salva `posts/<data>.json` (`FOTO` = percorso relativo della foto).
