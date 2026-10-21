@@ -2,17 +2,17 @@
   "_nota": "Registro dei post generati. L'automazione lo legge per non ripetere argomenti e per rispettare il mix editoriale (ricambi ~60%, automotive ~30%, generale ~10%). Stato: bozza | programmato | pubblicato | scartato.",
   "post": [
     {
-      "data": "2026-11-12",
+      "data": "2026-11-13",
       "argomento": "Catene e calze da neve: obbligo dal 15 novembre",
       "categoria": "ricambi",
       "template": "prodotto",
       "foto": "posts/2026-11-12-catene-chatgpt.png",
       "foto_credito": "Immagine generata con AI (bozzetto ChatGPT del 21/10, scelto da Francesco)",
       "fonte": "calendario: ricorrenza 11-15",
-      "stato": "bozza",
-      "metricool_id": 402512074,
+      "stato": "programmato",
+      "metricool_id": 402536054,
       "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7462599&openWithPostUuid=-4172073517682897602",
-      "nota": "spostato da Francesco al 12/11 ore 10:00; immagine = riquadro DI STAGIONE dei bozzetti ChatGPT; isAiGenerated true"
+      "nota": "programmato da Francesco; spostato al venerdì 13/11 ore 10:00 (giorni di pubblicazione lun/mer/ven); immagine = riquadro DI STAGIONE dei bozzetti ChatGPT; isAiGenerated true"
     },
     {
       "data": "2026-10-22",
