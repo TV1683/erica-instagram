@@ -14,10 +14,16 @@ Francesco li conferma a mano dal planner. Email di Francesco: francesco@ericaric
 1. Clona il repo (`add_repo` con accesso push, poi git clone). Leggi `calendario.json`,
    `registro.json`, `templates/templates.json`.
 2. Ricerca web: 2–3 notizie automotive italiane degli ultimi 7 giorni utili a chi ha un'auto
-   (codice della strada, richiami, scadenze, pneumatici, batterie, manutenzione). Controlla in
-   `calendario.json` le ricorrenze dentro la loro `finestra` rispetto a oggi.
+   (codice della strada, richiami, scadenze, pneumatici, batterie, manutenzione). Cerca anche 1 notizia
+   di SETTORE/INDUSTRIA dei ricambi (fonti: ANSA economia, Il Sole 24 Ore, Automotive News/Notiziario
+   Motoristico, Autopromotec): operazioni dei grandi fornitori (es. Continental che cede ContiTech),
+   acquisizioni, nuove gamme di marchi aftermarket, dati di mercato. Controlla in `calendario.json`
+   le ricorrenze dentro la loro `finestra` rispetto a oggi.
 3. Componi una rosa di **3 argomenti** diversi tra loro, escludendo quelli nel registro degli
-   ultimi 60 giorni e tenendo il mix (ricambi ~60%, automotive ~30%, generale ~10% sugli ultimi 10 post).
+   ultimi 60 giorni e tenendo il mix sugli ultimi 10 post: ricambi/accessori ~60%, automotive ~30%,
+   interesse generale ~10%; dentro la quota automotive, le notizie di settore/industria al massimo 1 su 10
+   (categoria "settore", template `notizia`, didascalia che spiega in 2 righe perché conta per chi
+   compra ricambi: disponibilità, marchi, prezzi in prospettiva senza cifre inventate).
    Per ciascuno: titolo, 1 riga sul perché ora, categoria, template consigliato, fonte.
 4. Per ciascun argomento proponi 2 foto Unsplash (connettore Unsplash: query inglese di 2-4 parole,
    `orientation: portrait`, `plus: none`; realistiche, senza testi, loghi o volti in primo piano, soggetto

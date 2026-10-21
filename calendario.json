@@ -1,28 +1,180 @@
 {
-  "_nota": "Ricorrenze e stagionalità da sfruttare. 'finestra' = giorni prima della data in cui l'argomento è attuale. 'categoria': ricambi | automotive | generale.",
+  "_nota": "Ricorrenze e stagionalità da sfruttare. 'finestra' = giorni prima della data in cui l'argomento è attuale. 'categoria': ricambi | automotive | generale. Categorie: ricambi | automotive | generale | settore (industria dei ricambi, max 1 post su 10).",
   "ricorrenze": [
-    {"data": "11-15", "finestra": 20, "categoria": "ricambi", "titolo": "Obbligo catene o pneumatici invernali dal 15 novembre", "spunti": ["catene da neve a bordo", "calze da neve omologate", "gomme invernali o 4 stagioni con marcatura 3PMSF"]},
-    {"data": "10-15", "finestra": 25, "categoria": "ricambi", "titolo": "Cambio gomme invernale: dal 15 ottobre si può montare", "spunti": ["pressione gomme col freddo", "controllo battistrada 4 mm"]},
-    {"data": "04-15", "finestra": 20, "categoria": "ricambi", "titolo": "Dal 15 aprile si torna alle gomme estive (entro il 15 maggio)", "spunti": ["conservazione pneumatici", "controllo usura dopo l'inverno"]},
-    {"data": "10-25", "finestra": 15, "categoria": "ricambi", "titolo": "Ora solare: controllo luci e lampadine", "spunti": ["lampadine H7/H4", "fari appannati", "luci targa"]},
-    {"data": "11-01", "finestra": 20, "categoria": "ricambi", "titolo": "Autunno: spazzole tergicristallo e liquido lavavetri antigelo", "spunti": ["spazzole che stridono", "liquido lavavetri -20°"]},
-    {"data": "12-01", "finestra": 20, "categoria": "ricambi", "titolo": "Inverno: batteria, antigelo, raschietto", "spunti": ["batteria che fatica col freddo", "liquido radiatore", "sbrinatore"]},
-    {"data": "03-15", "finestra": 20, "categoria": "ricambi", "titolo": "Primavera: filtro abitacolo e igienizzazione clima", "spunti": ["filtro abitacolo ai carboni attivi", "allergie e pollini", "bomboletta igienizzante"]},
-    {"data": "05-20", "finestra": 20, "categoria": "ricambi", "titolo": "Prima dell'estate: ricarica clima e filtro abitacolo", "spunti": ["aria che non raffredda", "odore dal clima"]},
-    {"data": "07-15", "finestra": 25, "categoria": "ricambi", "titolo": "Vacanze: checklist prima di un viaggio lungo", "spunti": ["olio", "gomme", "tergicristalli", "kit emergenza", "portabici/portapacchi"]},
-    {"data": "09-10", "finestra": 15, "categoria": "ricambi", "titolo": "Rientro dalle ferie: controllo freni e olio", "spunti": ["pastiglie", "dischi", "tagliando"]},
-    {"data": "01-10", "finestra": 15, "categoria": "generale", "titolo": "Buoni propositi: manutenzione programmata dell'auto", "spunti": ["calendario tagliandi", "revisione"]},
-    {"data": "12-20", "finestra": 10, "categoria": "generale", "titolo": "Auguri di Natale e orari festivi", "spunti": ["orari apertura", "idee regalo accessori auto"]}
+    {
+      "data": "11-15",
+      "finestra": 20,
+      "categoria": "ricambi",
+      "titolo": "Obbligo catene o pneumatici invernali dal 15 novembre",
+      "spunti": [
+        "catene da neve a bordo",
+        "calze da neve omologate",
+        "gomme invernali o 4 stagioni con marcatura 3PMSF"
+      ]
+    },
+    {
+      "data": "10-15",
+      "finestra": 25,
+      "categoria": "ricambi",
+      "titolo": "Cambio gomme invernale: dal 15 ottobre si può montare",
+      "spunti": [
+        "pressione gomme col freddo",
+        "controllo battistrada 4 mm"
+      ]
+    },
+    {
+      "data": "04-15",
+      "finestra": 20,
+      "categoria": "ricambi",
+      "titolo": "Dal 15 aprile si torna alle gomme estive (entro il 15 maggio)",
+      "spunti": [
+        "conservazione pneumatici",
+        "controllo usura dopo l'inverno"
+      ]
+    },
+    {
+      "data": "10-25",
+      "finestra": 15,
+      "categoria": "ricambi",
+      "titolo": "Ora solare: controllo luci e lampadine",
+      "spunti": [
+        "lampadine H7/H4",
+        "fari appannati",
+        "luci targa"
+      ]
+    },
+    {
+      "data": "11-01",
+      "finestra": 20,
+      "categoria": "ricambi",
+      "titolo": "Autunno: spazzole tergicristallo e liquido lavavetri antigelo",
+      "spunti": [
+        "spazzole che stridono",
+        "liquido lavavetri -20°"
+      ]
+    },
+    {
+      "data": "12-01",
+      "finestra": 20,
+      "categoria": "ricambi",
+      "titolo": "Inverno: batteria, antigelo, raschietto",
+      "spunti": [
+        "batteria che fatica col freddo",
+        "liquido radiatore",
+        "sbrinatore"
+      ]
+    },
+    {
+      "data": "03-15",
+      "finestra": 20,
+      "categoria": "ricambi",
+      "titolo": "Primavera: filtro abitacolo e igienizzazione clima",
+      "spunti": [
+        "filtro abitacolo ai carboni attivi",
+        "allergie e pollini",
+        "bomboletta igienizzante"
+      ]
+    },
+    {
+      "data": "05-20",
+      "finestra": 20,
+      "categoria": "ricambi",
+      "titolo": "Prima dell'estate: ricarica clima e filtro abitacolo",
+      "spunti": [
+        "aria che non raffredda",
+        "odore dal clima"
+      ]
+    },
+    {
+      "data": "07-15",
+      "finestra": 25,
+      "categoria": "ricambi",
+      "titolo": "Vacanze: checklist prima di un viaggio lungo",
+      "spunti": [
+        "olio",
+        "gomme",
+        "tergicristalli",
+        "kit emergenza",
+        "portabici/portapacchi"
+      ]
+    },
+    {
+      "data": "09-10",
+      "finestra": 15,
+      "categoria": "ricambi",
+      "titolo": "Rientro dalle ferie: controllo freni e olio",
+      "spunti": [
+        "pastiglie",
+        "dischi",
+        "tagliando"
+      ]
+    },
+    {
+      "data": "01-10",
+      "finestra": 15,
+      "categoria": "generale",
+      "titolo": "Buoni propositi: manutenzione programmata dell'auto",
+      "spunti": [
+        "calendario tagliandi",
+        "revisione"
+      ]
+    },
+    {
+      "data": "12-20",
+      "finestra": 10,
+      "categoria": "generale",
+      "titolo": "Auguri di Natale e orari festivi",
+      "spunti": [
+        "orari apertura",
+        "idee regalo accessori auto"
+      ]
+    }
   ],
   "sempreverdi": [
-    {"categoria": "ricambi", "titolo": "Ogni quanto cambiare le pastiglie dei freni", "template": "consiglio"},
-    {"categoria": "ricambi", "titolo": "Olio motore: cosa vogliono dire le sigle 5W-30, 5W-40", "template": "consiglio"},
-    {"categoria": "ricambi", "titolo": "Additivi carburante: quando servono davvero", "template": "consiglio"},
-    {"categoria": "ricambi", "titolo": "Filtro aria, olio, gasolio, abitacolo: i 4 filtri del tagliando", "template": "lista"},
-    {"categoria": "ricambi", "titolo": "Spia batteria accesa: cosa controllare", "template": "lista"},
-    {"categoria": "ricambi", "titolo": "Kit emergenza obbligatorio: cosa tenere a bordo", "template": "lista"},
-    {"categoria": "automotive", "titolo": "Revisione auto: ogni quanto e cosa viene controllato", "template": "consiglio"},
-    {"categoria": "automotive", "titolo": "Codice della strada: novità e sanzioni da conoscere", "template": "consiglio"},
-    {"categoria": "automotive", "titolo": "Auto ibride ed elettriche: la manutenzione cambia?", "template": "consiglio"}
+    {
+      "categoria": "ricambi",
+      "titolo": "Ogni quanto cambiare le pastiglie dei freni",
+      "template": "consiglio"
+    },
+    {
+      "categoria": "ricambi",
+      "titolo": "Olio motore: cosa vogliono dire le sigle 5W-30, 5W-40",
+      "template": "consiglio"
+    },
+    {
+      "categoria": "ricambi",
+      "titolo": "Additivi carburante: quando servono davvero",
+      "template": "consiglio"
+    },
+    {
+      "categoria": "ricambi",
+      "titolo": "Filtro aria, olio, gasolio, abitacolo: i 4 filtri del tagliando",
+      "template": "lista"
+    },
+    {
+      "categoria": "ricambi",
+      "titolo": "Spia batteria accesa: cosa controllare",
+      "template": "lista"
+    },
+    {
+      "categoria": "ricambi",
+      "titolo": "Kit emergenza obbligatorio: cosa tenere a bordo",
+      "template": "lista"
+    },
+    {
+      "categoria": "automotive",
+      "titolo": "Revisione auto: ogni quanto e cosa viene controllato",
+      "template": "consiglio"
+    },
+    {
+      "categoria": "automotive",
+      "titolo": "Codice della strada: novità e sanzioni da conoscere",
+      "template": "consiglio"
+    },
+    {
+      "categoria": "automotive",
+      "titolo": "Auto ibride ed elettriche: la manutenzione cambia?",
+      "template": "consiglio"
+    }
   ]
 }
