@@ -2,6 +2,53 @@
   "_nota": "Rose di argomenti proposte a Francesco, la più recente in testa. Serve per: (1) la finestra delle notizie, che parte dalla data dell'ultima rosa; (2) riproporre al massimo 1 argomento non scelto se ancora attuale (max 2 volte, campo riproposto). Un argomento scelto ha scelto: true e finisce anche in registro.json.",
   "rose": [
     {
+      "data": "2026-10-22",
+      "argomenti": [
+        {
+          "lettera": "A",
+          "argomento": "Gasolio a 2,259 €/l (Mimit, 21/10): 4 controlli sull'auto per consumare meno",
+          "categoria": "ricambi",
+          "template": "manutenzione",
+          "fonte": "ANSA 21/10/2026",
+          "url": "https://www.ansa.it/canale_motori/notizie/mondo_motori/2026/10/21/prezzo-gasolio-in-lieve-rialzo-a-2259-euro-in-autostrada-a-2294_3bdc6f59-a905-424c-bb29-64856b0c8a3c.html",
+          "foto": [
+            "YhezVj6sUl4 (Justus Menke)",
+            "YeG5qQmtqhk (Thomas De Giorgio)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        },
+        {
+          "lettera": "B",
+          "argomento": "Ora solare domenica 25 ottobre: controlla luci e lampadine",
+          "categoria": "ricambi",
+          "template": "prodotto",
+          "fonte": "calendario: ricorrenza 10-25",
+          "scadenza": "2026-10-25",
+          "riproposta_di": "2026-10-21/A",
+          "foto": [
+            "q_9lVimxxOc (Nipun Chandra Surnilla)",
+            "_nKVc3SiqLw (Alex Moliski)"
+          ],
+          "scelto": false
+        },
+        {
+          "lettera": "C",
+          "argomento": "Freudenberg crea Freudenberg Aftermarket, operativo dal 1° gennaio 2027",
+          "categoria": "settore",
+          "template": "notizia",
+          "fonte": "PartsWeb 20/10/2026",
+          "url": "https://www.partsweb.it/freudenberg-aftermarket-nasce-il-nuovo-business-group/",
+          "foto": [
+            "sk6fOQYIO1o (Cemrecan Yurtman)",
+            "JjqmX_YoXyU (Adrian Kusznirewicz)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        }
+      ]
+    },
+    {
       "data": "2026-10-21",
       "argomenti": [
         {
@@ -11,9 +58,12 @@
           "template": "prodotto",
           "fonte": "calendario: ricorrenza 10-25",
           "scadenza": "2026-10-25",
-          "foto": ["Ta81dIW1DFU (Jonas Morgner)", "w_oxGU5PLVo (Robin Edqvist)"],
+          "foto": [
+            "Ta81dIW1DFU (Jonas Morgner)",
+            "w_oxGU5PLVo (Robin Edqvist)"
+          ],
           "scelto": false,
-          "riproposto": 0
+          "riproposto": 1
         },
         {
           "lettera": "B",
@@ -22,7 +72,10 @@
           "template": "notizia",
           "fonte": "Automoto.it 21/10/2026",
           "url": "https://www.automoto.it/news/airbag-takata-da-ottobre-queste-auto-non-passano-la-revisione-ecco-i-modelli-coinvolti.html",
-          "foto": ["VykUJgij9bM (Rahul Pugazhendi)", "fkjEqxzfOJ8 (Giorgio Trovato)"],
+          "foto": [
+            "VykUJgij9bM (Rahul Pugazhendi)",
+            "fkjEqxzfOJ8 (Giorgio Trovato)"
+          ],
           "scelto": false,
           "riproposto": 0
         },
@@ -33,7 +86,10 @@
           "template": "notizia",
           "fonte": "Inforicambi.it 20/10/2026",
           "url": "https://www.inforicambi.it/magazine/ricambi-auto/borgwarner-aftermarket-800-nuovi-prodotti_1506498.html",
-          "foto": ["puXW62danfY (Nazariy Kovalov)", "-rjE4_GediQ (Komorebi Photo)"],
+          "foto": [
+            "puXW62danfY (Nazariy Kovalov)",
+            "-rjE4_GediQ (Komorebi Photo)"
+          ],
           "scelto": false,
           "riproposto": 0
         },
@@ -44,7 +100,10 @@
           "template": "notizia",
           "fonte": "ANSA 14/10/2026",
           "url": "https://www.ansa.it/canale_motori/notizie/istituzioni/2026/10/14/nuovo-codice-della-strada-tutte-le-novita_2d8aaebc-8b4c-4526-8e95-4dc5f0b54dc8.html",
-          "foto": ["xjEBxVuIvFY (Davide Boscolo)", "pFeCiV0lUwI (Michiel Annaert)"],
+          "foto": [
+            "xjEBxVuIvFY (Davide Boscolo)",
+            "pFeCiV0lUwI (Michiel Annaert)"
+          ],
           "scelto": true,
           "riproposto": 0
         }
