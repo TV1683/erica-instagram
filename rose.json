@@ -2,6 +2,51 @@
   "_nota": "Rose di argomenti proposte a Francesco, la più recente in testa. Serve per: (1) la finestra delle notizie, che parte dalla data dell'ultima rosa; (2) riproporre al massimo 1 argomento non scelto se ancora attuale (max 2 volte, campo riproposto). Un argomento scelto ha scelto: true e finisce anche in registro.json.",
   "rose": [
     {
+      "data": "2026-10-23",
+      "argomenti": [
+        {
+          "lettera": "A",
+          "argomento": "Batteria e primi freddi: i segnali che sta per lasciarti a piedi",
+          "categoria": "ricambi",
+          "template": "manutenzione",
+          "fonte": "sempreverde (calendario: spia batteria / inverno)",
+          "foto": [
+            "NAQ4mLL2X9Y (Newpowa)",
+            "Q_CJmTlNpAQ (Koons Automotive)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        },
+        {
+          "lettera": "B",
+          "argomento": "Olio motore: cosa vogliono dire le sigle 5W-30 e 5W-40",
+          "categoria": "ricambi",
+          "template": "prodotto",
+          "fonte": "sempreverde (calendario)",
+          "foto": [
+            "uhuTo7u8VXk (Jimmy Nilsson Masth)",
+            "b5edWvATQDs (Tepalai Automobiliams)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        },
+        {
+          "lettera": "C",
+          "argomento": "Ricambi e assistenza auto in Italia valgono 36 miliardi (+15% sul 2019): auto sempre più vecchie, età media circa 13 anni (Quadrante AsConAuto 2026)",
+          "categoria": "settore",
+          "template": "notizia",
+          "fonte": "Adnkronos 21/10/2026",
+          "url": "https://quotidianodibari.it/aftermarket-in-italia-il-mercato-vale-36-miliardi/",
+          "foto": [
+            "REXWw_IW0wo (engin akyurt)",
+            "UZUzvJEvKnI (Sten Rademaker)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        }
+      ]
+    },
+    {
       "data": "2026-10-22",
       "argomenti": [
         {
