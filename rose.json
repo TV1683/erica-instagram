@@ -2,6 +2,51 @@
   "_nota": "Rose di argomenti proposte a Francesco, la più recente in testa. Serve per: (1) la finestra delle notizie, che parte dalla data dell'ultima rosa; (2) riproporre al massimo 1 argomento non scelto se ancora attuale (max 2 volte, campo riproposto). Un argomento scelto ha scelto: true e finisce anche in registro.json.",
   "rose": [
     {
+      "data": "2026-10-29",
+      "argomenti": [
+        {
+          "lettera": "A",
+          "argomento": "Batteria e primi freddi: i segnali che sta per lasciarti a piedi",
+          "categoria": "ricambi",
+          "template": "manutenzione",
+          "fonte": "sempreverde (calendario: spia batteria / inverno)",
+          "riproposta_di": "2026-10-23/A",
+          "foto": [
+            "Q_CJmTlNpAQ (Koons Automotive)",
+            "sk6fOQYIO1o (Cemrecan Yurtman)"
+          ],
+          "scelto": false
+        },
+        {
+          "lettera": "B",
+          "argomento": "Liquido lavavetri antigelo: cambialo prima delle prime gelate",
+          "categoria": "ricambi",
+          "template": "prodotto",
+          "fonte": "calendario: ricorrenza 11-01 (spunto liquido lavavetri -20°)",
+          "foto": [
+            "gJw4b9kLEn8 (Caleb Minear)",
+            "N6TMB5n_68E (Aleksey Veretennikov)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        },
+        {
+          "lettera": "C",
+          "argomento": "Assogomma: con il freddo controlla pressione, battistrada e fianchi delle gomme (risparmiare sulla manutenzione costa di più)",
+          "categoria": "automotive",
+          "template": "notizia",
+          "fonte": "ANSA 27/10/2026",
+          "url": "https://www.ansa.it/canale_motori/notizie/sicurezza/2026/10/27/assogomma-in-tempi-economici-difficili-si-punti-sulla-manutenzione_091f80f3-9957-4aa3-8743-34caedf32a58.html",
+          "foto": [
+            "RM7qDq3pwkY (Jimmy Nilsson Masth)",
+            "G0fQQ2RlvkI (Jairph)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        }
+      ]
+    },
+    {
       "data": "2026-10-23",
       "argomenti": [
         {
@@ -15,7 +60,7 @@
             "Q_CJmTlNpAQ (Koons Automotive)"
           ],
           "scelto": false,
-          "riproposto": 0
+          "riproposto": 1
         },
         {
           "lettera": "B",
