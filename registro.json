@@ -52,6 +52,19 @@
       "metricool_id": 402503238,
       "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7462599&openWithPostUuid=1844401252224748331",
       "nota": "spostato da Francesco al 22/10 ore 10:00 come test; i file restano posts/2026-10-24*"
+    },
+    {
+      "data": "2026-10-30",
+      "argomento": "Lavavetri antigelo -20°C: Arexons DP1 4,5 L a 9,50 € IVA inclusa",
+      "categoria": "ricambi",
+      "template": "prodotto",
+      "foto": "posts/2026-10-30.png",
+      "foto_credito": "Foto prodotto ufficiale Arexons (fornita da Francesco) su sfondo generato con FLUX.1 Krea",
+      "fonte": "calendario: ricorrenza 11-01; scheda prodotto arexons.it; prezzo indicato da Francesco il 29/10",
+      "stato": "bozza",
+      "metricool_id": 410005830,
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7462599&openWithPostUuid=-8746041283431545707",
+      "nota": "isAiGenerated true per lo sfondo"
     }
   ]
 }
