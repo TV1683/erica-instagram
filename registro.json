@@ -65,6 +65,19 @@
       "metricool_id": 410009628,
       "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7462599&openWithPostUuid=-8746041283431545707",
       "nota": "isAiGenerated true per lo sfondo; 29/10 Francesco chiede di esaltare il prezzo: aggiunto bollino rosso 9,50 € IVA inclusa; approvato da Francesco in chat il 29/10 («procedi»): programmato per il 30/10 alle 10:00"
+    },
+    {
+      "data": "2026-11-02",
+      "argomento": "Targhe personalizzate a pagamento e bollo strutturale per auto fino a 80 kW: annunciati con la manovra 2027, non ancora legge",
+      "categoria": "automotive",
+      "template": "notizia",
+      "foto": "posts/2026-11-02.png",
+      "foto_credito": "Immagine generata con AI (FLUX.1 Krea)",
+      "fonte": "ANSA 29/10/2026; greenMe; Auto.it 29/10/2026",
+      "stato": "bozza",
+      "metricool_id": 411595854,
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7462599&openWithPostUuid=-5422992570557051801",
+      "nota": "scelto da Francesco dalla rosa del 30/10 (B); isAiGenerated true"
     }
   ]
 }
