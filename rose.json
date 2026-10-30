@@ -2,6 +2,51 @@
   "_nota": "Rose di argomenti proposte a Francesco, la più recente in testa. Serve per: (1) la finestra delle notizie, che parte dalla data dell'ultima rosa; (2) riproporre al massimo 1 argomento non scelto se ancora attuale (max 2 volte, campo riproposto). Un argomento scelto ha scelto: true e finisce anche in registro.json.",
   "rose": [
     {
+      "data": "2026-10-30",
+      "argomenti": [
+        {
+          "lettera": "A",
+          "argomento": "La sonda lambda Bosch compie 50 anni: dal 1976 circa 1,7 miliardi di pezzi, oggi circa 1.000 codici per il ricambio",
+          "categoria": "settore",
+          "template": "notizia",
+          "fonte": "Inforicambi.it 29/10/2026",
+          "url": "https://inforicambi.it/magazine/ricambi-auto/sonda-lambda-bosch-50-anni-funzionamento-aftermarket_1506821.html",
+          "foto": [
+            "foto ufficiale Bosch o di Francesco (post di marchio: niente immagine generata)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        },
+        {
+          "lettera": "B",
+          "argomento": "Targhe personalizzate a pagamento e bollo strutturale per auto fino a 80 kW: misure nella manovra approvata dal CdM, non ancora legge",
+          "categoria": "automotive",
+          "template": "notizia",
+          "fonte": "ANSA 29/10/2026",
+          "url": "https://ansa.it/canale_motori/notizie/istituzioni/2026/10/29/arrivano-le-targhe-auto-personalizzate-ecco-come-funzionano_28319a94-f007-4733-b37b-60c2125861b6.html",
+          "foto": [
+            "Hm1F6EBNA70 (Marcel Strauß)",
+            "mH6M7OwfeDc (Blake Emge)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        },
+        {
+          "lettera": "C",
+          "argomento": "Batteria e primi freddi: i segnali che sta per lasciarti a piedi",
+          "categoria": "ricambi",
+          "template": "manutenzione",
+          "fonte": "sempreverde (calendario: spia batteria / inverno)",
+          "riproposta_di": "2026-10-23/A",
+          "foto": [
+            "Q_CJmTlNpAQ (Koons Automotive)",
+            "6tYlbu3pE6M (Jakob Rosen)"
+          ],
+          "scelto": false
+        }
+      ]
+    },
+    {
       "data": "2026-10-29",
       "argomenti": [
         {
@@ -61,7 +106,7 @@
             "Q_CJmTlNpAQ (Koons Automotive)"
           ],
           "scelto": false,
-          "riproposto": 1
+          "riproposto": 2
         },
         {
           "lettera": "B",
