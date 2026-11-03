@@ -2,6 +2,51 @@
   "_nota": "Rose di argomenti proposte a Francesco, la più recente in testa. Serve per: (1) la finestra delle notizie, che parte dalla data dell'ultima rosa; (2) riproporre al massimo 1 argomento non scelto se ancora attuale (max 2 volte, campo riproposto). Un argomento scelto ha scelto: true e finisce anche in registro.json.",
   "rose": [
     {
+      "data": "2026-11-03",
+      "argomenti": [
+        {
+          "lettera": "A",
+          "argomento": "Liquido radiatore antigelo: controllalo prima delle prime gelate",
+          "categoria": "ricambi",
+          "template": "manutenzione",
+          "fonte": "calendario: ricorrenza 12-01 (spunto liquido radiatore), anticipata per le prime gelate",
+          "foto": [
+            "LPtoJI6hHEM (Denis Sorokin)",
+            "p6IRLPlYvfE (Chris Demers)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        },
+        {
+          "lettera": "B",
+          "argomento": "Vetri ghiacciati al mattino: raschietto, spray sbrinante e copriparabrezza",
+          "categoria": "ricambi",
+          "template": "prodotto",
+          "fonte": "calendario: ricorrenza 12-01 (spunti raschietto, sbrinatore)",
+          "foto": [
+            "gJw4b9kLEn8 (Caleb Minear)",
+            "zxrg45zhYBA (Jake Nackos)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        },
+        {
+          "lettera": "C",
+          "argomento": "Barometro ANFIA: aftermarket +3,1% nel primo semestre 2026; circa il 42% delle auto circolanti è Euro 0-4 (16 anni e più)",
+          "categoria": "settore",
+          "template": "notizia",
+          "fonte": "ANFIA via Teleborsa e PartsWeb 28/10/2026",
+          "url": "https://www.teleborsa.it/News/2026/10/28/aftermarket-automotive-fatturato-in-crescita-del-3-1percent-nel-primo-semestre-2026-227.html",
+          "foto": [
+            "REXWw_IW0wo (engin akyurt)",
+            "UZUzvJEvKnI (Sten Rademaker)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        }
+      ]
+    },
+    {
       "data": "2026-10-30",
       "argomenti": [
         {
