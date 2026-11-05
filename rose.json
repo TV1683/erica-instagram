@@ -2,6 +2,51 @@
   "_nota": "Rose di argomenti proposte a Francesco, la più recente in testa. Serve per: (1) la finestra delle notizie, che parte dalla data dell'ultima rosa; (2) riproporre al massimo 1 argomento non scelto se ancora attuale (max 2 volte, campo riproposto). Un argomento scelto ha scelto: true e finisce anche in registro.json.",
   "rose": [
     {
+      "data": "2026-11-05",
+      "argomenti": [
+        {
+          "lettera": "A",
+          "argomento": "Gasolio e freddo: additivo antigelo per evitare che il filtro si intasi e l'auto non parta",
+          "categoria": "ricambi",
+          "template": "prodotto",
+          "fonte": "calendario: sempreverde 'Additivi carburante' + ricorrenza 12-01 (inverno)",
+          "foto": [
+            "NJHYuIeLIiM (Markus Spiske)",
+            "wbEV3E46KVU (Allen Boguslavsky)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        },
+        {
+          "lettera": "B",
+          "argomento": "Liquido radiatore antigelo: controllalo prima delle prime gelate",
+          "categoria": "ricambi",
+          "template": "manutenzione",
+          "fonte": "calendario: ricorrenza 12-01 (spunto liquido radiatore)",
+          "riproposta_di": "2026-11-03/A",
+          "foto": [
+            "LPtoJI6hHEM (Denis Sorokin)",
+            "p6IRLPlYvfE (Chris Demers)"
+          ],
+          "scelto": false
+        },
+        {
+          "lettera": "C",
+          "argomento": "Euro 7 dal 29 novembre 2026: limiti anche su polveri dei freni e usura gomme per i nuovi modelli; nessun effetto sulle auto già in circolazione",
+          "categoria": "automotive",
+          "template": "notizia",
+          "fonte": "Motor1 Italia; PartsWeb (TMD Friction, freni conformi Euro 7)",
+          "url": "https://it.motor1.com/features/782957/euro-7-omologazione-quando-cosa-cambia/",
+          "foto": [
+            "fwnTOncjeB0 (The DK Photography)",
+            "oiUtPbfFm2U (Václav Pechar)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        }
+      ]
+    },
+    {
       "data": "2026-11-03",
       "argomenti": [
         {
@@ -15,7 +60,7 @@
             "p6IRLPlYvfE (Chris Demers)"
           ],
           "scelto": false,
-          "riproposto": 0
+          "riproposto": 1
         },
         {
           "lettera": "B",
