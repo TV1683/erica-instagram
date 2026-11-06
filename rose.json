@@ -2,6 +2,51 @@
   "_nota": "Rose di argomenti proposte a Francesco, la più recente in testa. Serve per: (1) la finestra delle notizie, che parte dalla data dell'ultima rosa; (2) riproporre al massimo 1 argomento non scelto se ancora attuale (max 2 volte, campo riproposto). Un argomento scelto ha scelto: true e finisce anche in registro.json.",
   "rose": [
     {
+      "data": "2026-11-06",
+      "argomenti": [
+        {
+          "lettera": "A",
+          "argomento": "Tappetini in gomma e vasca baule: proteggi l'auto da fango, pioggia e neve d'inverno",
+          "categoria": "ricambi",
+          "template": "prodotto",
+          "fonte": "stagionalità inverno (calendario: ricorrenza 12-01, finestra in arrivo)",
+          "foto": [
+            "molQiGqrfIY (Wes Tindel)",
+            "2XU7g_OebKU (Logan Weaver)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        },
+        {
+          "lettera": "B",
+          "argomento": "Fari opachi o ingialliti: con le giornate corte vedi (e ti vedono) meno",
+          "categoria": "ricambi",
+          "template": "manutenzione",
+          "fonte": "stagionalità: giornate corte dopo l'ora solare (calendario: ricorrenza 10-25, spunto fari appannati)",
+          "foto": [
+            "n2sMNNo7VLY (Nathan Neve)",
+            "O8e05HPa-QA (Samuel Hagger)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        },
+        {
+          "lettera": "C",
+          "argomento": "Euro 7 dal 29 novembre 2026: limiti anche su polveri dei freni e usura gomme per i nuovi modelli; nessun effetto sulle auto già in circolazione",
+          "categoria": "automotive",
+          "template": "notizia",
+          "fonte": "Motor1 Italia; Money.it; alVolante (ricontrollato il 06/11)",
+          "url": "https://it.motor1.com/features/782957/euro-7-omologazione-quando-cosa-cambia/",
+          "riproposta_di": "2026-11-05/C",
+          "foto": [
+            "fwnTOncjeB0 (The DK Photography)",
+            "oiUtPbfFm2U (Václav Pechar)"
+          ],
+          "scelto": false
+        }
+      ]
+    },
+    {
       "data": "2026-11-05",
       "argomenti": [
         {
@@ -42,7 +87,7 @@
             "oiUtPbfFm2U (Václav Pechar)"
           ],
           "scelto": false,
-          "riproposto": 0
+          "riproposto": 1
         }
       ]
     },
