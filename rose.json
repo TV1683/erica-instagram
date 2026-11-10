@@ -2,6 +2,52 @@
   "_nota": "Rose di argomenti proposte a Francesco, la più recente in testa. Serve per: (1) la finestra delle notizie, che parte dalla data dell'ultima rosa; (2) riproporre al massimo 1 argomento non scelto se ancora attuale (max 2 volte, campo riproposto). Un argomento scelto ha scelto: true e finisce anche in registro.json.",
   "rose": [
     {
+      "data": "2026-11-10",
+      "argomenti": [
+        {
+          "lettera": "A",
+          "argomento": "Portiere e serrature bloccate dal gelo: spray protettivo per guarnizioni e sbloccante serrature, da usare prima delle gelate",
+          "categoria": "ricambi",
+          "template": "prodotto",
+          "fonte": "Inforicambi.it 04/11/2026 (manutenzione e riparazione); stagionalità inverno (calendario 12-01)",
+          "url": "https://www.inforicambi.it/magazine/manutenzione-e-riparazione/portiere-auto-bloccate-gelo-come-aprirle-guarnizioni_1506990.html",
+          "foto": [
+            "Q2EolR8OX9U (Nik Bagherzadegan)",
+            "PqSiScJCOxA (Bruno Guerrero)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        },
+        {
+          "lettera": "B",
+          "argomento": "Pastiglie dei freni: i segnali che dicono che è ora di cambiarle (fischio, spia, pedale lungo)",
+          "categoria": "ricambi",
+          "template": "manutenzione",
+          "fonte": "calendario: sempreverde 'Ogni quanto cambiare le pastiglie dei freni'",
+          "foto": [
+            "fwnTOncjeB0 (The DK Photography)",
+            "oiUtPbfFm2U (Václav Pechar)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        },
+        {
+          "lettera": "C",
+          "argomento": "Euro 7 dal 29 novembre 2026: limiti anche su polveri dei freni e usura gomme per i nuovi modelli; nessun effetto sulle auto già in circolazione",
+          "categoria": "automotive",
+          "template": "notizia",
+          "fonte": "Inforicambi.it 04/11/2026; Motor1 Italia (ricontrollato il 10/11)",
+          "url": "https://it.motor1.com/features/782957/euro-7-omologazione-quando-cosa-cambia/",
+          "riproposta_di": "2026-11-05/C",
+          "foto": [
+            "Z-QMOL81yd8 (Dain Lindo)",
+            "PDdRLVfYZ_A (Mateusz Wąsik)"
+          ],
+          "scelto": false
+        }
+      ]
+    },
+    {
       "data": "2026-11-06",
       "argomenti": [
         {
@@ -87,7 +133,7 @@
             "oiUtPbfFm2U (Václav Pechar)"
           ],
           "scelto": false,
-          "riproposto": 1
+          "riproposto": 2
         }
       ]
     },
