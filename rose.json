@@ -2,6 +2,53 @@
   "_nota": "Rose di argomenti proposte a Francesco, la più recente in testa. Serve per: (1) la finestra delle notizie, che parte dalla data dell'ultima rosa; (2) riproporre al massimo 1 argomento non scelto se ancora attuale (max 2 volte, campo riproposto). Un argomento scelto ha scelto: true e finisce anche in registro.json.",
   "rose": [
     {
+      "data": "2026-11-12",
+      "argomenti": [
+        {
+          "lettera": "A",
+          "argomento": "Portiere e serrature bloccate dal gelo: spray protettivo per guarnizioni e sbloccante serrature, da usare prima delle gelate",
+          "categoria": "ricambi",
+          "template": "prodotto",
+          "fonte": "Inforicambi.it 04/11/2026; stagionalità inverno (calendario 12-01)",
+          "url": "https://www.inforicambi.it/magazine/manutenzione-e-riparazione/portiere-auto-bloccate-gelo-come-aprirle-guarnizioni_1506990.html",
+          "riproposta_di": "2026-11-10/A",
+          "foto": [
+            "Q2EolR8OX9U (Nik Bagherzadegan)",
+            "nmvmoWGVsCk (Myznik Egor)"
+          ],
+          "scelto": false
+        },
+        {
+          "lettera": "B",
+          "argomento": "Batteria a terra col freddo: avviatore portatile (booster) o cavi di emergenza da tenere nel bagagliaio",
+          "categoria": "ricambi",
+          "template": "prodotto",
+          "fonte": "stagionalità inverno (calendario 12-01, spunto batteria che fatica col freddo)",
+          "foto": [
+            "Q_CJmTlNpAQ (Koons Automotive)",
+            "wSvYAXmWJQo (riis riiiis)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        },
+        {
+          "lettera": "C",
+          "argomento": "Nuovo Codice della strada, nuovo stop: il Consiglio di Stato sospende il parere e chiede al Governo documenti entro il 25/11; il testo resta uno schema, nulla cambia per ora",
+          "categoria": "automotive",
+          "template": "notizia",
+          "fonte": "Virgilio Motori 11/11/2026; Moveo Telepass 11/11/2026 (proteste dei Comuni il 15/11)",
+          "url": "https://www.virgilio.it/motori/notizie/nuovo-codice-della-strada-parere-sospeso/356163/",
+          "nota": "aggiornamento del post del 22/10 sul nuovo Codice della strada",
+          "foto": [
+            "pPcvNPtOCbk (Fabrizio Coco)",
+            "eT3mLCz_nd4 (Samuel Isaacs)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        }
+      ]
+    },
+    {
       "data": "2026-11-10",
       "argomenti": [
         {
@@ -16,7 +63,7 @@
             "PqSiScJCOxA (Bruno Guerrero)"
           ],
           "scelto": false,
-          "riproposto": 0
+          "riproposto": 1
         },
         {
           "lettera": "B",
