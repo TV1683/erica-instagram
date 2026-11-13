@@ -2,6 +2,52 @@
   "_nota": "Rose di argomenti proposte a Francesco, la più recente in testa. Serve per: (1) la finestra delle notizie, che parte dalla data dell'ultima rosa; (2) riproporre al massimo 1 argomento non scelto se ancora attuale (max 2 volte, campo riproposto). Un argomento scelto ha scelto: true e finisce anche in registro.json.",
   "rose": [
     {
+      "data": "2026-11-13",
+      "argomenti": [
+        {
+          "lettera": "A",
+          "argomento": "Batteria o alternatore? I sintomi per capire chi ti lascia a piedi col freddo (avviamento lento, spia di ricarica, batteria che si riscarica)",
+          "categoria": "ricambi",
+          "template": "manutenzione",
+          "fonte": "Inforicambi.it 11/11/2026",
+          "url": "https://www.inforicambi.it/magazine/manutenzione-e-riparazione/alternatore-o-batteria-sintomi-guasti-controlli_1507006.html",
+          "foto": [
+            "cJXvTc1Rmfc (Ivett M)",
+            "nKVkVC0P24U (Madeline Liu)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        },
+        {
+          "lettera": "B",
+          "argomento": "Pastiglie dei freni: i segnali che dicono che è ora di cambiarle (fischio, spia, pedale lungo)",
+          "categoria": "ricambi",
+          "template": "manutenzione",
+          "fonte": "calendario: sempreverde 'Ogni quanto cambiare le pastiglie dei freni'",
+          "riproposta_di": "2026-11-10/B",
+          "foto": [
+            "oiUtPbfFm2U (Václav Pechar)",
+            "fwnTOncjeB0 (The DK Photography)"
+          ],
+          "scelto": false
+        },
+        {
+          "lettera": "C",
+          "argomento": "Nuovo Codice della strada, la bozza cambia le rotatorie: precedenza a chi è già dentro anche senza cartello; non è ancora legge",
+          "categoria": "automotive",
+          "template": "notizia",
+          "fonte": "Open 12/11/2026; Automoto.it 12/11/2026",
+          "url": "https://www.open.online/2026/11/12/nuovo-codice-strada-precedenza-rotonde-regole/",
+          "foto": [
+            "SdMuKn6KKaA (Lucas Miguel)",
+            "kH-tPP_UGjw (Gerardo Frutos)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        }
+      ]
+    },
+    {
       "data": "2026-11-12",
       "argomenti": [
         {
@@ -76,7 +122,7 @@
             "oiUtPbfFm2U (Václav Pechar)"
           ],
           "scelto": false,
-          "riproposto": 0
+          "riproposto": 1
         },
         {
           "lettera": "C",
