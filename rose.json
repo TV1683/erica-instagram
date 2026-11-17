@@ -2,6 +2,51 @@
   "_nota": "Rose di argomenti proposte a Francesco, la più recente in testa. Serve per: (1) la finestra delle notizie, che parte dalla data dell'ultima rosa; (2) riproporre al massimo 1 argomento non scelto se ancora attuale (max 2 volte, campo riproposto). Un argomento scelto ha scelto: true e finisce anche in registro.json.",
   "rose": [
     {
+      "data": "2026-11-17",
+      "argomenti": [
+        {
+          "lettera": "A",
+          "argomento": "Diesel che fatica a partire al mattino freddo: candelette di preriscaldamento (spia a spirale che lampeggia, avviamento lungo, fumo bianco)",
+          "categoria": "ricambi",
+          "template": "manutenzione",
+          "fonte": "stagionalità inverno (calendario 12-01)",
+          "foto": [
+            "mz_dg5RJo_s (Molly Mears)",
+            "H5zayzsZSWk (Matt Seymour)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        },
+        {
+          "lettera": "B",
+          "argomento": "Olio motore d'inverno: cosa vuol dire la W di 5W-30 e perché conta col freddo",
+          "categoria": "ricambi",
+          "template": "prodotto",
+          "fonte": "calendario: sempreverde 'Olio motore: cosa vogliono dire le sigle 5W-30, 5W-40'",
+          "riproposta_di": "2026-10-23/B",
+          "foto": [
+            "uhuTo7u8VXk (Jimmy Nilsson Masth)",
+            "9ZTpCjmwL2M (Benjamin Brunner)"
+          ],
+          "scelto": false
+        },
+        {
+          "lettera": "C",
+          "argomento": "Diesel Euro 5: nessun blocco strutturale in Veneto fino al 1° ottobre 2027 (DL 167/2026, ok della Camera il 10/11, Senato entro il 27/11); restano le misure antismog temporanee",
+          "categoria": "automotive",
+          "template": "notizia",
+          "fonte": "Motor1 11/11/2026; Il Sole 24 Ore 10/11/2026; Regione Veneto 21/09/2026",
+          "url": "https://it.motor1.com/news/815150/diesel-euro-5-stop-2027",
+          "foto": [
+            "3MqnXCTARmY (Ivan Baton)",
+            "0UCQybGytj8 (Mihály Köles)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        }
+      ]
+    },
+    {
       "data": "2026-11-13",
       "argomenti": [
         {
@@ -393,7 +438,7 @@
             "b5edWvATQDs (Tepalai Automobiliams)"
           ],
           "scelto": false,
-          "riproposto": 0
+          "riproposto": 1
         },
         {
           "lettera": "C",
