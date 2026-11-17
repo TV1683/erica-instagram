@@ -78,6 +78,19 @@
       "metricool_id": 411595854,
       "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7462599&openWithPostUuid=-5422992570557051801",
       "nota": "scelto da Francesco dalla rosa del 30/10 (B); isAiGenerated true"
+    },
+    {
+      "data": "2026-11-18",
+      "argomento": "Olio motore d'inverno: cosa vuol dire la W di 5W-30; E.RIC.A distributore ufficiale Motul, Castrol e Kentro",
+      "categoria": "ricambi",
+      "template": "prodotto",
+      "foto": "posts/2026-11-18.png",
+      "foto_credito": "Immagine generata con AI (FLUX.1 Krea)",
+      "fonte": "calendario: sempreverde olio motore; marchi distribuiti indicati da Francesco il 17/11",
+      "stato": "da caricare su Metricool",
+      "plannerUrl": null,
+      "didascalia": "posts/2026-11-18-didascalia.txt",
+      "nota": "scelto da Francesco dalla rosa del 17/11 (B, riproposta del 23/10/B); immagine generata; bozza Metricool NON creata: connettore Metricool da ricollegare"
     }
   ]
 }
