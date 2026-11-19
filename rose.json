@@ -2,6 +2,52 @@
   "_nota": "Rose di argomenti proposte a Francesco, la più recente in testa. Serve per: (1) la finestra delle notizie, che parte dalla data dell'ultima rosa; (2) riproporre al massimo 1 argomento non scelto se ancora attuale (max 2 volte, campo riproposto). Un argomento scelto ha scelto: true e finisce anche in registro.json.",
   "rose": [
     {
+      "data": "2026-11-19",
+      "argomenti": [
+        {
+          "lettera": "A",
+          "argomento": "Vetri che si appannano dentro d'inverno: filtro abitacolo intasato o umido, ricircolo sempre acceso; cosa controllare",
+          "categoria": "ricambi",
+          "template": "manutenzione",
+          "fonte": "stagionalità inverno (calendario 12-01); sempreverde filtri del tagliando",
+          "foto": [
+            "a7frAFlwosQ (Lute)",
+            "7P0nVS88M0E (Arash Payam)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        },
+        {
+          "lettera": "B",
+          "argomento": "Nebbia in pianura: fendinebbia e retronebbia, quando si accendono (retronebbia solo sotto i 50 m di visibilità) e lampadine di ricambio a bordo",
+          "categoria": "ricambi",
+          "template": "prodotto",
+          "fonte": "Codice della strada art. 153 (Brocardi); alVolante, guida retronebbia",
+          "url": "https://brocardi.it/codice-della-strada/titolo-v/art153.html",
+          "foto": [
+            "V0FJRMwk454 (Nathaniel Zimmerman)",
+            "y4EkDeDEoSE (Danila Perevoshchikov)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        },
+        {
+          "lettera": "C",
+          "argomento": "Diesel Euro 5: ora è legge, blocco strutturale in Veneto rinviato al 1° ottobre 2027 (Senato 17/11, DL 167/2026 convertito); restano le misure antismog temporanee",
+          "categoria": "automotive",
+          "template": "notizia",
+          "fonte": "Automoto.it 18/11/2026",
+          "url": "https://www.automoto.it/news/diesel-euro-5-il-senato-approva-il-rinvio-dei-blocchi-al-2027-cosa-cambia-per-gli-automobilisti.html",
+          "riproposta_di": "2026-11-17/C",
+          "foto": [
+            "3MqnXCTARmY (Ivan Baton)",
+            "0UCQybGytj8 (Mihály Köles)"
+          ],
+          "scelto": false
+        }
+      ]
+    },
+    {
       "data": "2026-11-17",
       "argomenti": [
         {
@@ -43,7 +89,7 @@
             "0UCQybGytj8 (Mihály Köles)"
           ],
           "scelto": false,
-          "riproposto": 0
+          "riproposto": 1
         }
       ]
     },
