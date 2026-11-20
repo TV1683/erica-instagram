@@ -2,6 +2,52 @@
   "_nota": "Rose di argomenti proposte a Francesco, la più recente in testa. Serve per: (1) la finestra delle notizie, che parte dalla data dell'ultima rosa; (2) riproporre al massimo 1 argomento non scelto se ancora attuale (max 2 volte, campo riproposto). Un argomento scelto ha scelto: true e finisce anche in registro.json.",
   "rose": [
     {
+      "data": "2026-11-20",
+      "argomenti": [
+        {
+          "lettera": "A",
+          "argomento": "Dashcam: con il nuovo Codice della strada (bozza, art. 74) i video potranno valere come prova negli incidenti; non è ancora legge",
+          "categoria": "ricambi",
+          "template": "prodotto",
+          "fonte": "alVolante 17/11/2026; Autoappassionati 19/11/2026",
+          "url": "https://www.alvolante.it/news/incidenti-stradali-svolta-il-nuovo-codice-della-strada-video-delle-dashcam-diventano-prove-valide-422065",
+          "foto": [
+            "R1gvm6OagZU (Nicole Logan)",
+            "V3iAg86XwBo (leoon liang)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        },
+        {
+          "lettera": "B",
+          "argomento": "Auto in panne dopo il pieno in Alto Adige: segnalazioni al Centro tutela consumatori, ripreso dall'ADAC; causa non individuata. Conserva lo scontrino e cosa controllare",
+          "categoria": "automotive",
+          "template": "notizia",
+          "fonte": "ANSA 18/11/2026; Alto Adige 19/11/2026",
+          "url": "https://www.ansa.it/trentino/notizie/2026/11/18/auto-in-panne-dopo-il-rifornimento-diverse-segnalazioni-in-alto-adige_1ece7bf2-5641-4192-9081-ddc2cb2d161f.html",
+          "foto": [
+            "-qUe8eiXH-c (engin akyurt)",
+            "KJFoNSi9TBI (Jennifer Latuperisa-Andresen)"
+          ],
+          "scelto": false,
+          "riproposto": 0
+        },
+        {
+          "lettera": "C",
+          "argomento": "Vetri che si appannano dentro d'inverno: filtro abitacolo intasato o umido, ricircolo sempre acceso; cosa controllare",
+          "categoria": "ricambi",
+          "template": "manutenzione",
+          "fonte": "stagionalità inverno (calendario 12-01); sempreverde filtri del tagliando",
+          "riproposta_di": "2026-11-19/A",
+          "foto": [
+            "a7frAFlwosQ (Lute)",
+            "7P0nVS88M0E (Arash Payam)"
+          ],
+          "scelto": false
+        }
+      ]
+    },
+    {
       "data": "2026-11-19",
       "argomenti": [
         {
@@ -15,7 +61,7 @@
             "7P0nVS88M0E (Arash Payam)"
           ],
           "scelto": false,
-          "riproposto": 0
+          "riproposto": 1
         },
         {
           "lettera": "B",
