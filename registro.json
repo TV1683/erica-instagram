@@ -91,6 +91,20 @@
       "plannerUrl": null,
       "didascalia": "posts/2026-11-18-didascalia.txt",
       "nota": "scelto da Francesco dalla rosa del 17/11 (B, riproposta del 23/10/B); immagine generata; bozza Metricool NON creata: connettore Metricool da ricollegare"
+    },
+    {
+      "data": "2026-11-23",
+      "argomento": "Dashcam: con la bozza del nuovo Codice della strada (art. 74) i video potranno valere come prova negli incidenti; non ancora legge",
+      "categoria": "ricambi",
+      "template": "prodotto",
+      "foto": "posts/2026-11-23.png",
+      "foto_credito": "Immagine generata con AI (FLUX.1 Krea)",
+      "fonte": "alVolante 17/11/2026; Autoappassionati 19/11/2026",
+      "stato": "bozza",
+      "metricool_id": 435318450,
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7462599&openWithPostUuid=9131831101299245957",
+      "didascalia": "posts/2026-11-23-didascalia.txt",
+      "nota": "scelto da Francesco dalla rosa del 20/11 (A); immagine generata; isAiGenerated true"
     }
   ]
 }
